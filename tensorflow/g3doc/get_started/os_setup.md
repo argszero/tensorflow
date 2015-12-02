@@ -202,6 +202,9 @@ $ sudo apt-get install python-numpy swig python-dev
 ```bash
 yum install numpy scipy swig python-devel
 ```
+注：
+1. 如果后面import six报错，则手动更新six版本: pip install -U six
+1. 如果后面import numpy报错，则手动指定安装numpy的版本:pip install numpy==1.8
 
 #### Optional: Install CUDA (GPUs on Linux) <a class="md-anchor" id="install_cuda"></a>
 
